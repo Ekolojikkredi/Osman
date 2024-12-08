@@ -1,0 +1,163 @@
+/* Genel stil ayarları */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6ffe6;  /* Açık yeşil arka plan */
+    color: #333;
+}
+
+/* Header kısmı */
+header {
+    background-color: #4CAF50;  /* Yeşil başlık */
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Sağ ve sol kolonlar için düzen */
+main {
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+/* Sol kolon - Menü */
+.left-column {
+    flex: 1;
+    padding: 20px;
+    background-color: #4CAF50;  /* Yeşil arka plan */
+    color: white;
+    height: calc(100vh - 40px);  /* Yüksekliği tam sayfa yap */
+    position: fixed;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.left-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-column li {
+    margin: 10px 0;
+}
+
+.left-column a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.left-column a:hover {
+    text-decoration: underline;
+}
+
+/* Sağ kolon - İçerik */
+.right-column {
+    flex: 3;
+    margin-left: 220px;  /* Sol menüden mesafe */
+    padding: 20px;
+}
+
+/* Toplam atık ve kredi göstergeleri */
+#toplam-atik {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#toplam-atik h3 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+#toplam-atik span {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+/* Formlar ve butonlar */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Sayfa içerik düzeni */
+#page-content {
+    margin-top: 20px;
+}
+
+/* Sayfa geçişi */
+#page-content h2 {
+    font-size: 28px;
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+#page-content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Butonlar */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Hedefe odaklı stil */
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
